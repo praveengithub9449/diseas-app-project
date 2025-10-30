@@ -10,8 +10,11 @@ import wikipedia
 import requests
 import os 
 
-
 app = Flask(__name__)
+
+from flask_cors import CORS
+CORS(app)
+
 
 # ------------------------------
 # Crop Recommendation
