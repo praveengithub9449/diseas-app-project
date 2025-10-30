@@ -1,0 +1,4 @@
+web: gunicorn app:app
+git remote add origin https://github.com/praveengithub9449/diseas-app-project.git
+git branch -M main
+git push -u origin main
